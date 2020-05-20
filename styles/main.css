@@ -1,0 +1,102 @@
+body {
+  font-family: "Work Sans", sans-serif !important;
+}
+
+h1,
+h2,
+p {
+  color: #565556;
+}
+
+.navbar-potato .nav-link {
+  color: #565656 !important;
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+.nav-item-contact {
+  padding-right: 20px !important;
+  border-right: 1px solid #ccc;
+}
+
+.navbar-potato .login {
+  color: #629fe3 !important;
+}
+
+.navbar-potato .covid-19 span {
+  background: #ff6262;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.scroll-down {
+  margin-top: 50px;
+}
+
+.navbar-potato .sign-up {
+  background: #629fe3;
+  border-radius: 50px;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+.navbar-potato .sign-up a {
+  color: #fff !important;
+  margin: 0;
+}
+
+.nav-item.sign-up footer {
+  background: #5e95e0;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+.navbar-potato .covid-19 {
+  color: #fe9640 !important;
+}
+
+.text-reserved {
+  color: #d9eaff;
+}
+
+.copyrights p {
+  line-height: 0.7;
+}
+
+.terms-and-conditions a,
+.privacy-policy a {
+  color: #ffffff !important;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+}
+
+.social-links ul li {
+  margin-right: 25px;
+}
+
+.navbar-nav:nth-child(3) {
+  font-size: 20px;
+}
+
+footer {
+  padding: 30px 50px;
+  background: #5f99e3;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-item-contact {
+    padding-right: 0px !important;
+    border: none !important;
+  }
+
+  .navbar-potato {
+    text-align: center;
+  }
+}
