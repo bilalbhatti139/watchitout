@@ -1,0 +1,53 @@
+body {
+  font-family: "Work Sans", sans-serif !important;
+}
+
+#header {
+  background: #000000;
+}
+
+.navbar-watch-it .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-watch-it .nav-link:hover {
+  color: #b73038 !important;
+}
+
+.reserve-seat {
+  background: #b73038;
+  border-radius: 8px;
+  margin-left: 25px;
+  animation: glowing 1500ms infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #b20000;
+    box-shadow: 0 0 3px #b20000;
+  }
+  50% {
+    background-color: #ff0000;
+    box-shadow: 0 0 40px #ff0000;
+  }
+  100% {
+    background-color: #b20000;
+    box-shadow: 0 0 3px #b20000;
+  }
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-watch-it {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .reserve-seat {
+    margin: 0;
+  }
+}
