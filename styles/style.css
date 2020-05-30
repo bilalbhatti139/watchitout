@@ -46,7 +46,8 @@ body {
 }
 
 .about-us-text h1,
-.scheduled-movies-section .title h1 {
+.scheduled-movies-section .title h1,
+.section-movies-tabs .title h1 {
   color: #b73038;
   font-weight: bold;
 }
@@ -65,7 +66,8 @@ body {
   margin-bottom: 25px;
 }
 
-.scheduled-movies-section hr {
+.scheduled-movies-section hr,
+.section-movies-tabs hr {
   border-top: 3px solid #b73038;
 }
 
@@ -82,6 +84,35 @@ body {
 .movie-four-image:hover {
   transform: scale(0.9);
   box-shadow: 0 0 5px 5px #b73038;
+}
+
+.section-movies-tabs {
+  margin: 50px 0px;
+}
+
+.movie-name h3,
+.movie-location h3,
+.movie-time h3,
+.movie-overview h3 {
+  color: #b73038 !important;
+  font-weight: bold;
+  margin: 0;
+}
+
+.movie-name p,
+.movie-location p,
+.movie-time p,
+.movie-overview p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.movie-one-tab,
+.movie-two-tab,
+.movie-three-tab,
+.movie-four-tab {
+  padding-top: 30px;
 }
 
 @media only screen and (max-width: 991px) {

@@ -15,6 +15,10 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
 
     <!--Import Work Sans Font Family-->
     <link
@@ -214,7 +218,7 @@
                     aria-selected="true"
                   >
                     <img
-                      src="/assets/images/hercules.jpg"
+                      src="/assets/images/tracer.jpg"
                       alt="movie-banner"
                       class="img-fluid"
                     />
@@ -232,7 +236,7 @@
                     aria-selected="true"
                   >
                     <img
-                      src="/assets/images/tracer.jpg"
+                      src="/assets/images/hercules.jpg"
                       alt="movie-banner"
                       class="img-fluid"
                     />
@@ -249,6 +253,10 @@
       <!--MOVIES TAB SECTION START-->
       <section class="section-movies-tabs">
         <div class="container">
+          <div class="title">
+            <h1>Movie Details</h1>
+            <hr />
+          </div>
           <div class="tab-content" id="movies-tabContent">
             <div
               class="movie-one-tab tab-pane fade show active"
@@ -259,14 +267,21 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="movie-video">
-                    <h1>MOVIE VIDEO</h1>
+                    <a
+                      data-fancybox
+                      href="https://www.youtube.com/watch?v=8hYlB38asDY&feature=youtu.be"
+                      ><img
+                        src="/assets/images/iron-main-video.png"
+                        alt="movie-banner"
+                        class="img-fluid"
+                    /></a>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="movie-detail">
                     <div class="movie-name">
                       <h3>Movie Name</h3>
-                      <p>Iron Man</p>
+                      <p>Iron Man (2008)</p>
                     </div>
                     <div class="movie-location">
                       <h3>Movie Location</h3>
@@ -274,7 +289,15 @@
                     </div>
                     <div class="movie-time">
                       <h3>Time</h3>
-                      <p>8:00 pm to 10:00 pm</p>
+                      <p>6:00 pm to 8:00 pm</p>
+                    </div>
+                    <div class="movie-overview">
+                      <h3>Overview</h3>
+                      <p>
+                        After being held captive in an Afghan cave, billionaire
+                        engineer Tony Stark creates a unique weaponized suit of
+                        armor to fight evil.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -289,14 +312,19 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="movie-video">
-                    <h1>MOVIE VIDEO</h1>
+                    <a data-fancybox href="https://youtu.be/dwXFsrp6WBs"
+                      ><img
+                        src="/assets/images/ninja-turtle-video.png"
+                        alt="movie-banner"
+                        class="img-fluid"
+                    /></a>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="movie-detail">
                     <div class="movie-name">
                       <h3>Movie Name</h3>
-                      <p>Iron Man</p>
+                      <p>Teenage Mutant Ninja Turtles (2014)</p>
                     </div>
                     <div class="movie-location">
                       <h3>Movie Location</h3>
@@ -305,6 +333,20 @@
                     <div class="movie-time">
                       <h3>Time</h3>
                       <p>8:00 pm to 10:00 pm</p>
+                    </div>
+                    <div class="movie-overview">
+                      <h3>Overview</h3>
+                      <p>
+                        The city needs heroes. Darkness has settled over New
+                        York City as Shredder and his evil Foot Clan have an
+                        iron grip on everything from the police to the
+                        politicians. The future is grim until four unlikely
+                        outcast brothers rise from the sewers and discover their
+                        destiny as Teenage Mutant Ninja Turtles. The Turtles
+                        must work with fearless reporter April and her
+                        wise-cracking cameraman Vern Fenwick to save the city
+                        and unravel Shredder's diabolical plan.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -319,14 +361,19 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="movie-video">
-                    <h1>MOVIE VIDEO</h1>
+                    <a data-fancybox href="https://youtu.be/nSfZahdXxU4"
+                      ><img
+                        src="/assets/images/tracer-video.png"
+                        alt="movie-banner"
+                        class="img-fluid"
+                    /></a>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="movie-detail">
                     <div class="movie-name">
                       <h3>Movie Name</h3>
-                      <p>Iron Man</p>
+                      <p>Tracers (2015)</p>
                     </div>
                     <div class="movie-location">
                       <h3>Movie Location</h3>
@@ -334,7 +381,72 @@
                     </div>
                     <div class="movie-time">
                       <h3>Time</h3>
-                      <p>8:00 pm to 10:00 pm</p>
+                      <p>10:00 pm to 12:00 pm</p>
+                    </div>
+                    <div class="movie-overview">
+                      <h3>Overview</h3>
+                      <p>
+                        Wanted by the mafia, a New York City bike messenger
+                        escapes into the world of parkour after meeting a
+                        beautiful stranger.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="movie-four-tab tab-pane fade show"
+              id="movie-four"
+              role="tabpanel"
+              aria-labelledby="movie-four-tab"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="movie-video">
+                    <a data-fancybox href="https://youtu.be/HydiAICZq6I"
+                      ><img
+                        src="/assets/images/herculies-video.png"
+                        alt="movie-banner"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="movie-detail">
+                    <div class="movie-name">
+                      <h3>Movie Name</h3>
+                      <p>Hercules (2014)</p>
+                    </div>
+                    <div class="movie-location">
+                      <h3>Movie Location</h3>
+                      <p>Boston Public Garden</p>
+                    </div>
+                    <div class="movie-time">
+                      <h3>Time</h3>
+                      <p>12:00 am to 2:00 am</p>
+                    </div>
+                    <div class="movie-overview">
+                      <h3>Overview</h3>
+                      <p>
+                        Fourteen hundred years ago, a tormented soul walked the
+                        earth that was neither man nor god. Hercules was the
+                        powerful son of the god king Zeus, for this he received
+                        nothing but suffering his entire life. After twelve
+                        arduous labors and the loss of his family, this dark,
+                        world-weary soul turned his back on the gods finding his
+                        only solace in bloody battle. Over the years he warmed
+                        to the company of six similar souls, their only bond
+                        being their love of fighting and presence of death.
+                        These men and woman never question where they go to
+                        fight or why or whom, just how much they will be paid.
+                        Now the King of Thrace has hired these mercenaries to
+                        train his men to become the greatest army of all time.
+                        It is time for this bunch of lost souls to finally have
+                        their eyes opened to how far they have fallen when they
+                        must train an army to become as ruthless and blood
+                        thirsty as their reputation has
+                      </p>
                     </div>
                   </div>
                 </div>
