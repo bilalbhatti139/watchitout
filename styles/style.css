@@ -38,11 +38,11 @@ body {
 }
 
 .navbar-toggler {
-  background: #fff !important;
+  background: #b73038 !important;
 }
 
 .about-us-section {
-  margin: 70px 0px;
+  margin: 50px 0px;
 }
 
 .about-us-text h1,
@@ -67,7 +67,8 @@ body {
 }
 
 .scheduled-movies-section hr,
-.section-movies-tabs hr {
+.section-movies-tabs hr,
+.about-us-text hr {
   border-top: 3px solid #b73038;
 }
 
@@ -115,6 +116,10 @@ body {
   padding-top: 30px;
 }
 
+.mobile-reserve-btn {
+  display: none;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar-watch-it {
     text-align: center;
@@ -122,6 +127,28 @@ body {
   }
 
   .reserve-seat {
+    display: none;
+  }
+
+  .mobile-reserve-btn {
+    display: block;
     margin: 0;
+  }
+
+  .mobile-reserve-btn .nav-link {
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-us-section,
+  .scheduled-movies-section,
+  .section-movies-tabs {
+    text-align: center;
+  }
+
+  .movie-detail {
+    padding-top: 50px;
   }
 }
