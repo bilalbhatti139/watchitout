@@ -47,7 +47,8 @@ body {
 
 .about-us-text h1,
 .scheduled-movies-section .title h1,
-.section-movies-tabs .title h1 {
+.section-movies-tabs .title h1,
+.section-news .title h1 {
   color: #b73038;
   font-weight: bold;
 }
@@ -68,7 +69,8 @@ body {
 
 .scheduled-movies-section hr,
 .section-movies-tabs hr,
-.about-us-text hr {
+.about-us-text hr,
+.section-news hr {
   border-top: 3px solid #b73038;
 }
 
@@ -118,6 +120,37 @@ body {
 
 .mobile-reserve-btn {
   display: none;
+}
+
+.section-news {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin: 50px 0px;
+  padding: 50px 0px;
+}
+
+.news h5 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.news p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.news-main {
+  margin-top: 50px;
+}
+
+.news .read-more {
+  color: #b73038;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 991px) {
