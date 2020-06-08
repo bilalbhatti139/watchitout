@@ -48,7 +48,8 @@ body {
 .about-us-text h1,
 .scheduled-movies-section .title h1,
 .section-movies-tabs .title h1,
-.section-news .title h1 {
+.section-news .title h1,
+.section-mobile-movie .title h1 {
   color: #b73038;
   font-weight: bold;
 }
@@ -169,6 +170,33 @@ footer p {
   margin: 0;
 }
 
+.registration-form-modal .modal-header {
+  background: #b73038;
+  color: #fff;
+}
+
+.registration-form-modal .btn-submit-form {
+  background: #b73038;
+  color: #fff;
+  font-weight: 600;
+}
+
+.registration-form-modal .btn-submit-form:hover {
+  background: #fff;
+  border: 1px solid #b73038;
+  color: #b73038 !important;
+}
+
+.registration-form-modal .close {
+  color: #fff;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 1;
+}
+
+.section-mobile-movie {
+  display: none;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar-watch-it {
     text-align: center;
@@ -203,6 +231,48 @@ footer p {
   }
 
   .movie-detail {
-    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .top-rated-movies img {
+    margin-bottom: 20px;
+  }
+
+  .scheduled-movies-section,
+  .section-movies-tabs {
+    display: none;
+  }
+
+  .mobile-movie-1,
+  .mobile-movie-2,
+  .mobile-movie-3,
+  .mobile-movie-4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .movie-video {
+    margin: 50px 0px;
+  }
+
+  .mobile-movie-image img:hover {
+    box-shadow: 0 0 5px 5px #b73038;
+  }
+
+  .section-mobile-movie {
+    display: block;
+  }
+
+  .section-mobile-movie {
+    background: #000;
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .movie-name p,
+  .movie-location p,
+  .movie-time p,
+  .movie-overview p {
+    color: #fff;
   }
 }
