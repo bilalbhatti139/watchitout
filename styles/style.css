@@ -71,7 +71,8 @@ body {
 .scheduled-movies-section hr,
 .section-movies-tabs hr,
 .about-us-text hr,
-.section-news hr {
+.section-news hr,
+.section-mobile-movie hr {
   border-top: 3px solid #b73038;
 }
 
@@ -274,5 +275,24 @@ footer p {
   .movie-time p,
   .movie-overview p {
     color: #fff;
+  }
+
+  .section-news {
+    text-align: center;
+  }
+
+  .news {
+    border: 2px solid #b3023b;
+    margin-bottom: 25px;
+    padding: 20px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .news img {
+    width: 100%;
+    margin-top: 15px;
   }
 }
